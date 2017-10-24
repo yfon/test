@@ -1,0 +1,151 @@
+.btn-register {
+  color: #ffffff;
+  background-color: #E92322;
+  border-color: #DB3B43;
+} 
+ 
+.btn-register:hover, 
+.btn-register:focus, 
+.btn-register:active, 
+.btn-register.active, 
+.open .dropdown-toggle.btn-register { 
+  color: #ffffff; 
+  background-color: #E92322; 
+  border-color: #DB3B43; 
+} 
+ 
+.btn-register:active, 
+.btn-register.active, 
+.open .dropdown-toggle.btn-register { 
+  background-image: none; 
+} 
+ 
+.btn-register.disabled, 
+.btn-register[disabled], 
+fieldset[disabled] .btn-register, 
+.btn-register.disabled:hover, 
+.btn-register[disabled]:hover, 
+fieldset[disabled] .btn-register:hover, 
+.btn-register.disabled:focus, 
+.btn-register[disabled]:focus, 
+fieldset[disabled] .btn-register:focus, 
+.btn-register.disabled:active, 
+.btn-register[disabled]:active, 
+fieldset[disabled] .btn-register:active, 
+.btn-register.disabled.active, 
+.btn-register[disabled].active, 
+fieldset[disabled] .btn-register.active { 
+  background-color: #E92322; 
+  border-color: #DB3B43; 
+} 
+ 
+.btn-register .badge { 
+  color: #E92322; 
+  background-color: #ffffff; 
+}
+
+/*导航条*/
+.navbar-yufei {
+   background-color: #fff;
+   border-color: #f5f5f5;
+   margin-bottom: 0px;
+}
+.navbar-yufei .navbar-brand {
+	height: 80px;
+  color: #777;
+}
+.navbar-yufei .navbar-brand:hover,
+.navbar-yufei .navbar-brand:focus {
+  color: #5e5e5e;
+  background-color: transparent;
+}
+.navbar-yufei .navbar-text {
+  color: #777;
+}
+.navbar-yufei .navbar-nav > li > a {
+  color: #777;
+  line-height: 50px;
+  font-size: 14px;
+}
+.navbar-yufei .navbar-nav > li > a:hover,
+.navbar-yufei .navbar-nav > li > a:focus {
+  color: #333;
+  background-color: transparent;
+   border-bottom: 2px solid #e92322;
+}
+.navbar-yufei .navbar-nav > .active > a,
+.navbar-yufei .navbar-nav > .active > a:hover,
+.navbar-yufei .navbar-nav > .active > a:focus {
+  color: #555;
+  background-color: transparent;
+  border-bottom: 2px solid #E92322;
+}
+.navbar-yufei .navbar-nav > .disabled > a,
+.navbar-yufei .navbar-nav > .disabled > a:hover,
+.navbar-yufei .navbar-nav > .disabled > a:focus {
+  color: #ccc;
+  background-color: transparent;
+}
+.navbar-yufei .navbar-toggle {
+  border-color: #ddd;
+  margin-top: 23px;
+  margin-right: 23px;
+}
+.navbar-yufei .navbar-toggle:hover,
+.navbar-yufei .navbar-toggle:focus {
+  background-color: #ddd;
+}
+.navbar-yufei .navbar-toggle .icon-bar {
+  background-color: #888;
+}
+.navbar-yufei .navbar-collapse,
+.navbar-yufei .navbar-form {
+  border-color: #e7e7e7;
+}
+.navbar-yufei .navbar-nav > .open > a,
+.navbar-yufei .navbar-nav > .open > a:hover,
+.navbar-yufei .navbar-nav > .open > a:focus {
+  color: #555;
+  background-color: #e7e7e7;
+}
+@media (max-width: 767px) {
+  .navbar-yufei .navbar-nav .open .dropdown-menu > li > a {
+    color: #777;
+  }
+  .navbar-yufei .navbar-nav .open .dropdown-menu > li > a:hover,
+  .navbar-yufei .navbar-nav .open .dropdown-menu > li > a:focus {
+    color: #333;
+    background-color: transparent;
+  }
+  .navbar-yufei .navbar-nav .open .dropdown-menu > .active > a,
+  .navbar-yufei .navbar-nav .open .dropdown-menu > .active > a:hover,
+  .navbar-yufei .navbar-nav .open .dropdown-menu > .active > a:focus {
+    color: #555;
+    background-color: #e7e7e7;
+  }
+  .navbar-yufei .navbar-nav .open .dropdown-menu > .disabled > a,
+  .navbar-yufei .navbar-nav .open .dropdown-menu > .disabled > a:hover,
+  .navbar-yufei .navbar-nav .open .dropdown-menu > .disabled > a:focus {
+    color: #ccc;
+    background-color: transparent;
+  }
+}
+.navbar-yufei .navbar-link {
+  color: #777;
+}
+.navbar-yufei .navbar-link:hover {
+  color: #333;
+}
+.navbar-yufei .btn-link {
+  color: #777;
+}
+.navbar-yufei .btn-link:hover,
+.navbar-yufei .btn-link:focus {
+  color: #333;
+}
+.navbar-yufei .btn-link[disabled]:hover,
+fieldset[disabled] .navbar-yufei .btn-link:hover,
+.navbar-yufei .btn-link[disabled]:focus,
+fieldset[disabled] .navbar-yufei .btn-link:focus {
+  color: #ccc;
+}

@@ -1,0 +1,117 @@
+/*global style*/
+
+body {
+    font-family: "Helvetica Neue", Helvetica, Microsoft Yahei, Hiragino Sans GB, WenQuanYi Micro Hei, sans-serif;
+}
+
+
+
+
+
+
+/*header*/
+
+#header>.topbar {
+    height: 40px;
+    border-bottom: 1px solid #ccc;
+    line-height: 40px;
+}
+
+#header>.topbar>.container>.row>div {
+    height: 40px;
+    font-size: 12px;
+
+    color: #888;
+}
+
+#header>.topbar>.container>.row>div+div {
+    border-left: 1px solid #ccc;
+}
+
+#header a {
+    color: #888;
+}
+
+#header a:hover {
+    text-decoration: none;
+}
+
+#header .btn-register {
+    color: #fff;
+}
+
+#header .mobile-link>img {
+    display: none;
+    position: absolute;
+    left: 50%;
+    margin-left: -60px;
+    top: 30px;
+    z-index: 9999;
+}
+
+
+
+#header .mobile-link:hover>img {
+    display: block;
+}
+
+#header .icon-icon {
+    font-size: 50px;
+    color: #E92322;
+    line-height: 50px;
+    vertical-align: middle;
+}
+
+#header .icon-logo {
+    font-size: 32px;
+    color: #333;
+    line-height: 50px;
+    vertical-align: middle;
+}
+
+
+
+
+
+
+/*slideshow*/
+
+#main_ad>.carousel-inner>.item {
+    height: 410px;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+}
+
+@media (max-width:768px) {
+    #main_ad .carousel-inner .item {
+        height: auto;
+    }
+    #main_ad .carousel-inner .item img {
+        width: 100%;
+    }
+}
+
+
+
+
+
+/* service */
+
+#service {
+    padding-top: 40px;
+   
+}
+
+#service i[class^="icon-"],[class*=" icon-"]  {
+    font-size: 30px;
+    padding:10px 5px;
+}
+#service a {
+     color:#333;
+     text-decoration:none;
+}
+#service a:hover {
+     color:#E9232C;
+     
+}
